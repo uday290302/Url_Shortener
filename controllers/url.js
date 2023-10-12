@@ -29,6 +29,7 @@ async function redirectandanalytics(req, res) {
       },
     }
   );
+
   res.redirect(entry.redirectURL);
 
  
